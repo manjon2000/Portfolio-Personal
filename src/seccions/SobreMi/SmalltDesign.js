@@ -1,3 +1,4 @@
+import React from 'react';
 import ImgSobreMi from "../../assets/images/sobremi--img.jpg";
 function SmalltDesign(){
   return (

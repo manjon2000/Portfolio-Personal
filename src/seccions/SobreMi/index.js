@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from "../../components/NavBar/NavBar";
 import ImgSobreMi from "../../assets/images/sobremi--img.jpg";
 import "./style.css";
