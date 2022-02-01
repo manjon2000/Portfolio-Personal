@@ -5,8 +5,7 @@ import ImgLoop from '../../assets/images/img--loopstudio.png';
 import ImgCard from '../../assets/images/img--nft--card.jpg';
 import IconoGitHub from '../../assets/images/github.svg'
 
-
-const Proyectos = () => {
+function Proyectos(){
     const proyectosArry = [
         {
             id: 213,

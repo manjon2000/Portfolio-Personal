@@ -2,7 +2,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import ImgSobreMi from "../../assets/images/sobremi--img.jpg";
 import "./style.css";
 import SmalltDesign from "./SmalltDesign";
-const sobreMi = () => {
+function sobreMi(){
   return (
     <>
       {<NavBar />}

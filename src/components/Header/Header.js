@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import "./style.css";
 
-const Header = ({ titulo, subtitle }) => {
+function Header({ titulo, subtitle }){
   return (
     <>
       <header className='header'>

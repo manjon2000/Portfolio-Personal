@@ -1,5 +1,5 @@
 import ImgSobreMi from "../../assets/images/sobremi--img.jpg";
-const SmalltDesign = () => {
+function SmalltDesign(){
   return (
     <>
       <section className='sobre-mi__container--small text-white'>

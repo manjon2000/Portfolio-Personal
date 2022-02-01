@@ -6,7 +6,7 @@ import "./style.css";
 // =====================================
 // -------------------------------------
 // =====================================
-const NavBar = () => {
+function NavBar(){
   const [widthSize, setWidthSize] = useState("");
   const [openMenu, setOpenMenu] = useState("");
   useEffect(() => {
