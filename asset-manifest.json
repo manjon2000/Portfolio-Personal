@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/Portfolio-Personal/static/css/main.5735d904.css",
-    "main.js": "/Portfolio-Personal/static/js/main.ba52fcee.js",
+    "main.js": "/Portfolio-Personal/static/js/main.8ed61229.js",
     "static/js/787.2df8de29.chunk.js": "/Portfolio-Personal/static/js/787.2df8de29.chunk.js",
     "static/media/img--loopstudio.png": "/Portfolio-Personal/static/media/img--loopstudio.694853892d3554092569.png",
     "static/media/img--petanca.png": "/Portfolio-Personal/static/media/img--petanca.4c64be8c437af0b84446.png",
     "static/media/header-gif.gif": "/Portfolio-Personal/static/media/header-gif.9b63903693f4fb19cd48.gif",
     "static/media/sobremi--img.jpg": "/Portfolio-Personal/static/media/sobremi--img.f587e5c5c2d18d5f2adf.jpg",
     "static/media/img--nft--card.jpg": "/Portfolio-Personal/static/media/img--nft--card.c5b6b60b1019d4f426de.jpg",
-    "static/media/logo.svg": "/Portfolio-Personal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/github.svg": "/Portfolio-Personal/static/media/github.2a180d658ee1322802fd876a54d96ba8.svg",
     "index.html": "/Portfolio-Personal/index.html",
     "static/media/Logo.svg": "/Portfolio-Personal/static/media/Logo.699c80ba5dd833a605db6c364c8f120e.svg",
     "static/media/icon-menu-mobile.svg": "/Portfolio-Personal/static/media/icon-menu-mobile.f61b1eb0c93bb225cff0dd4dd876ea23.svg",
     "main.5735d904.css.map": "/Portfolio-Personal/static/css/main.5735d904.css.map",
-    "main.ba52fcee.js.map": "/Portfolio-Personal/static/js/main.ba52fcee.js.map",
+    "main.8ed61229.js.map": "/Portfolio-Personal/static/js/main.8ed61229.js.map",
     "787.2df8de29.chunk.js.map": "/Portfolio-Personal/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5735d904.css",
-    "static/js/main.ba52fcee.js"
+    "static/js/main.8ed61229.js"
   ]
 }
