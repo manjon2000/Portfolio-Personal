@@ -7,7 +7,7 @@ import SobreMi from "./seccions/SobreMi";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='process.env.PUBLIC_URL'>
         <Routes>
           <Route exact path='/' element={<Inicio />} />
           <Route exact path='sobre-mi' element={<SobreMi />} />
