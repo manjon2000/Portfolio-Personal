@@ -9,9 +9,9 @@ function App() {
     <>
       <Router basename='process.env.PUBLIC_URL'>
         <Routes>
-          <Route  path='/' element={<Inicio />} />
-          <Route  path='sobre-mi' element={<SobreMi />} />
-          <Route  path='proyectos' element={<Proyectos />} />
+          <Route  exact path='/' element={Inicio} />
+          <Route  exact path='sobre-mi' element={SobreMi} />
+          <Route  exact path='proyectos' element={Proyectos} />
         </Routes>
       </Router>
     </>
