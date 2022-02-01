@@ -1,0 +1,172 @@
+.text-white {
+  color: #f9eeff;
+}
+.sobre-mi {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.sobre-mi > .sobre-mi__container--desktop {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+/* ----------------------------------------------------- */
+.sobre-mi > .sobre-mi__container--desktop > .sobre-mi__card--desktop {
+  width: 350px;
+  height: 65vh;
+  border: 1px solid rgba(255, 255, 255, 0.046);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.141);
+}
+.sobre-mi__img--desktop {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+.sobre-mi__img--desktop > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.sobre-mi__skills--desktop,
+.sobre-mi__conocimientos--desktop {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sobre-mi__conocimientos--title--desktop h3,
+.sobre-mi__skills--title--desktop h3 {
+  color: white;
+  font-size: 1vw;
+  margin-bottom: 10px;
+  position: relative;
+}
+.sobre-mi__conocimientos--title--desktop h3::after,
+.sobre-mi__skills--title--desktop h3::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 55%;
+  height: 1px;
+  background-color: #ffffff57;
+  border-radius: 50%;
+}
+.flex--items {
+  width: 100%;
+  margin: 0 auto;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ----------------------------------------------------- */
+.sobre-mi > .sobre-mi__container--desktop > .sobre-mi__info--desktop {
+  width: 450px;
+  height: 100%;
+  color: white;
+  margin-left: 50px;
+}
+
+.sobre-mi__info--desktop > .sobre-mi__info--headings--desktop {
+  margin-bottom: 20px;
+  font-size: 2.5vw;
+  color: rgb(51, 74, 250);
+}
+.sobre-mi__info--desktop > .sobre-mi__bio--desktop p {
+  line-height: 30px;
+}
+.sobre-mi__info--desktop > .sobre-mi__info--headings--desktop h2 {
+  position: relative;
+}
+.sobre-mi__info--desktop > .sobre-mi__bio--desktop p {
+  font-size: 14px;
+}
+
+/* ------------------------------------------ */
+.sobre-mi__container--small {
+  display: none;
+}
+/* Media queris */
+
+@media screen and (max-width: 768px) {
+  .sobre-mi > .sobre-mi__container--desktop {
+    display: none;
+  }
+  /* ----------------------------------------------------- */
+  .sobre-mi__container--small {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sobre-mi__img--small {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .sobre-mi__img--small > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+  .sobre-mi__heading {
+    margin-bottom: 20px;
+    font-size: 6vw;
+    color: rgb(51, 74, 250);
+  }
+  .sobre-mi__info--small {
+    margin-bottom: 50px;
+  }
+  .sobre-mi__skills--small {
+    margin-bottom: 50px;
+  }
+  .sobre-mi__conocimientos--small {
+    margin-bottom: 25px;
+  }
+  .sobre-mi__skills--small > h3 {
+    margin-bottom: 10px;
+  }
+  .sobre-mi__conocimientos--small > h3 {
+    margin-bottom: 10px;
+  }
+  .sobre-mi__conocimientos--title--small,
+  .sobre-mi__skills--title--small {
+    position: relative;
+  }
+  .sobre-mi__conocimientos--title--small::after,
+  .sobre-mi__skills--title--small::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff57;
+    border-radius: 50%;
+  }
+}
