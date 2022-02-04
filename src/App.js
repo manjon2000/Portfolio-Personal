@@ -1,4 +1,4 @@
-import React, { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React, { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Inicio from "./seccions/Inicio";
 import Proyectos from "./seccions/Proyectos";
 import SobreMi from "./seccions/SobreMi";
